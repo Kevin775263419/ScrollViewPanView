@@ -15,6 +15,11 @@
 		0A3F41A21C4F6CE100D2B9E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A3F41A01C4F6CE100D2B9E3 /* LaunchScreen.storyboard */; };
 		0A3F41AD1C4F6CE100D2B9E3 /* ScrollViewPanViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3F41AC1C4F6CE100D2B9E3 /* ScrollViewPanViewTests.m */; };
 		0A3F41B81C4F6CE100D2B9E3 /* ScrollViewPanViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3F41B71C4F6CE100D2B9E3 /* ScrollViewPanViewUITests.m */; };
+		0A3F41C71C4F723500D2B9E3 /* FirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3F41C61C4F723500D2B9E3 /* FirstVC.m */; };
+		0A3F41CA1C4F724400D2B9E3 /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3F41C91C4F724400D2B9E3 /* SecondVC.m */; };
+		0A3F41CD1C4F725400D2B9E3 /* ThirdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3F41CC1C4F725400D2B9E3 /* ThirdVC.m */; };
+		0A9EA3DA1C55CBB000C3DC2E /* UIViewController+swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9EA3D91C55CBB000C3DC2E /* UIViewController+swizzling.m */; };
+		0AA088951C55295F00809392 /* FourVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA088941C55295F00809392 /* FourVCViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		0A3F41B31C4F6CE100D2B9E3 /* ScrollViewPanViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollViewPanViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A3F41B71C4F6CE100D2B9E3 /* ScrollViewPanViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewPanViewUITests.m; sourceTree = "<group>"; };
 		0A3F41B91C4F6CE100D2B9E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A3F41C51C4F723500D2B9E3 /* FirstVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstVC.h; sourceTree = "<group>"; };
+		0A3F41C61C4F723500D2B9E3 /* FirstVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstVC.m; sourceTree = "<group>"; };
+		0A3F41C81C4F724400D2B9E3 /* SecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
+		0A3F41C91C4F724400D2B9E3 /* SecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
+		0A3F41CB1C4F725400D2B9E3 /* ThirdVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdVC.h; sourceTree = "<group>"; };
+		0A3F41CC1C4F725400D2B9E3 /* ThirdVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdVC.m; sourceTree = "<group>"; };
+		0A9EA3D81C55CBB000C3DC2E /* UIViewController+swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+swizzling.h"; sourceTree = "<group>"; };
+		0A9EA3D91C55CBB000C3DC2E /* UIViewController+swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+swizzling.m"; sourceTree = "<group>"; };
+		0AA088931C55295F00809392 /* FourVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourVCViewController.h; sourceTree = "<group>"; };
+		0AA088941C55295F00809392 /* FourVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourVCViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +120,16 @@
 				0A3F41961C4F6CE100D2B9E3 /* AppDelegate.m */,
 				0A3F41981C4F6CE100D2B9E3 /* ViewController.h */,
 				0A3F41991C4F6CE100D2B9E3 /* ViewController.m */,
+				0A3F41C51C4F723500D2B9E3 /* FirstVC.h */,
+				0A3F41C61C4F723500D2B9E3 /* FirstVC.m */,
+				0A3F41C81C4F724400D2B9E3 /* SecondVC.h */,
+				0A3F41C91C4F724400D2B9E3 /* SecondVC.m */,
+				0A3F41CB1C4F725400D2B9E3 /* ThirdVC.h */,
+				0A3F41CC1C4F725400D2B9E3 /* ThirdVC.m */,
+				0AA088931C55295F00809392 /* FourVCViewController.h */,
+				0AA088941C55295F00809392 /* FourVCViewController.m */,
+				0A9EA3D81C55CBB000C3DC2E /* UIViewController+swizzling.h */,
+				0A9EA3D91C55CBB000C3DC2E /* UIViewController+swizzling.m */,
 				0A3F419B1C4F6CE100D2B9E3 /* Main.storyboard */,
 				0A3F419E1C4F6CE100D2B9E3 /* Assets.xcassets */,
 				0A3F41A01C4F6CE100D2B9E3 /* LaunchScreen.storyboard */,
@@ -270,8 +295,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A9EA3DA1C55CBB000C3DC2E /* UIViewController+swizzling.m in Sources */,
+				0A3F41CD1C4F725400D2B9E3 /* ThirdVC.m in Sources */,
 				0A3F419A1C4F6CE100D2B9E3 /* ViewController.m in Sources */,
+				0AA088951C55295F00809392 /* FourVCViewController.m in Sources */,
+				0A3F41C71C4F723500D2B9E3 /* FirstVC.m in Sources */,
 				0A3F41971C4F6CE100D2B9E3 /* AppDelegate.m in Sources */,
+				0A3F41CA1C4F724400D2B9E3 /* SecondVC.m in Sources */,
 				0A3F41941C4F6CE100D2B9E3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +528,7 @@
 				0A3F41BE1C4F6CE100D2B9E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A3F41BF1C4F6CE100D2B9E3 /* Build configuration list for PBXNativeTarget "ScrollViewPanViewTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +537,7 @@
 				0A3F41C11C4F6CE100D2B9E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A3F41C21C4F6CE100D2B9E3 /* Build configuration list for PBXNativeTarget "ScrollViewPanViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +546,7 @@
 				0A3F41C41C4F6CE100D2B9E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
